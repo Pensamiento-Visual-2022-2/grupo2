@@ -1,0 +1,16 @@
+    <div class="head">
+
+        <div class="logo">
+            <a href="#">Construyamos infancias más felices</a>
+        </div>
+    
+        <nav class="navbar">
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Contacto</a>
+            <a href="#">A</a>
+            <a href="#">B</a>
+            <a href="#">C</a>
+        </nav>
+
+    </div>

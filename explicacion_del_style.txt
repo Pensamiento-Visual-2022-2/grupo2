@@ -1,0 +1,66 @@
+*{
+    margin: 0; 
+        Espacio entre cada sección de la página.
+    padding: 0;
+        Espacio con los laterales de la web
+    border: 0;
+
+    font-size: 100%;
+
+    vertical-align: baseline;
+
+
+}
+
+body {
+    text-align: center;
+
+    font-family: sans-serif;
+
+}
+  
+.header {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.head {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    height: 63px;
+
+    background: #111 ;
+
+    position: fixed;
+
+    width: 100%;
+
+    z-index: 100
+
+}
+
+.navbar {
+    display: flex;
+
+    margin-right: 10px;   
+
+}
+
+.logo a{
+    text-decoration: none;
+        Sacar la barra del link
+    color: #fff;
+        Escoger el color
+    text-transform: uppercase;
+        uppercase -> Transformar las letras en mayúsculas
+    font-size: 20px;
+        Tamaño de la fuente
+}
