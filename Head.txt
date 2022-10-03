@@ -1,4 +1,4 @@
-aaa    <div class="head">
+   <div class="head">
 
         <div class="logo">
             <a href="#">Construyamos infancias más felices</a>
