@@ -10,7 +10,7 @@
 body {
     text-align: center;
     font-family: sans-serif;
-    background-color: aquamarine;
+    background-color: rgb(53, 7, 75);
 }
 
 .head {
@@ -46,7 +46,7 @@ body {
     padding: 20px 20px;
     color: white;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: none;
     font-size: 20px;
 }
 
@@ -67,16 +67,18 @@ body {
 }
 
 .title {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     font-size: 60px;
     font-weight: 600;
-    text-transform: capitalize;
+    text-transform: none;
     color: #fff;
 }
 
 p {
     margin-bottom: 40px;
     font-size: 18px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .btn {
@@ -107,4 +109,89 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #fff;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(245, 237, 237, 0.5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background: url(img/costos.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+   
+    
 }
