@@ -10,7 +10,7 @@
 body {
     text-align: center;
     font-family: sans-serif;
-    background-color: #48a3a8;
+    background-color: #18897f;
 }
 
 .head {
@@ -18,7 +18,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 63px;
-    background: #fefefe;
+    background: #18897f;
     position: fixed;
     width: 100%;
     z-index: 100
@@ -51,7 +51,7 @@ body {
 }
 
 .navbar a:hover {
-    background: #9cbf55;
+    background: #ebfafb;
 }
 
 .header {
@@ -88,7 +88,7 @@ p {
     padding: 10px 40px;
     border: 2px solid #48a3a8;
     color: rgb(255, 255, 255);
-    background: #ebfafb;
+    background: #48a3a8;
 }
 
 .btn:hover {
@@ -114,7 +114,7 @@ p {
 
 .sau {
     padding: 30px;
-    background: #1f1d1d
+    background: #51f5b1
 }
 
 .box-container {
@@ -150,7 +150,7 @@ p {
 
 .box-container .box h3 {
     font-size: 20px;
-    color: #86f859;
+    color: #51f5b1;
 
 }
 
@@ -160,7 +160,7 @@ p {
 }
 
 .about {
-    background: #171717;
+    background: #48a3a8;
 }
 
 .price {
@@ -173,7 +173,7 @@ p {
 
 .contact {
     padding-top: 20px;
-    background: #171717;
+    background: #36d38a;
     padding-bottom: 0;
 }
 
