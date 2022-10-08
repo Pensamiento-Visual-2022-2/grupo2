@@ -10,7 +10,7 @@
 body {
     text-align: center;
     font-family: sans-serif;
-    background-color: rgb(53, 7, 75);
+    background-color: #48a3a8;
 }
 
 .head {
@@ -18,7 +18,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 63px;
-    background: #777;
+    background: #fefefe;
     position: fixed;
     width: 100%;
     z-index: 100
@@ -51,7 +51,7 @@ body {
 }
 
 .navbar a:hover {
-    background: rgb(0, 0, 0);
+    background: #9cbf55;
 }
 
 .header {
@@ -62,7 +62,7 @@ body {
 
 .header {
     height: 60vh;
-    background: cadetblue;
+    background: #ebfafb;
     background-size: cover;
 }
 
@@ -86,9 +86,9 @@ p {
     text-decoration: none;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid rgb(14, 41, 112);
+    border: 2px solid #48a3a8;
     color: rgb(255, 255, 255);
-    background: rgb(15, 67, 96);
+    background: #ebfafb;
 }
 
 .btn:hover {
@@ -131,7 +131,7 @@ p {
     background: #ffffff;
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 0 .3rem 5rem rgba(245, 237, 237, 0.5);
+    box-shadow: 0 .3rem 5rem rgba(58, 234, 240, 0.5);
     margin: 2rem;   
 }
 
@@ -142,7 +142,7 @@ p {
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    background: #9c27b0;
+    background: #51f5b1;
     font-size: 2rem;
     margin: 1rem 0;
 
@@ -150,7 +150,7 @@ p {
 
 .box-container .box h3 {
     font-size: 20px;
-    color: #9c27b0;
+    color: #86f859;
 
 }
 
