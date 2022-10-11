@@ -17,92 +17,154 @@
         <a href="#">Construyamos infancias más felices</a>
       </div>
 
-      <nav class="navbar">
-        <a href="#">¿Qué es el SENAME?</a>
-        <a href="#">Edades de Ingreso</a>
-        <a href="#">Razones de Ingreso</a>
-        <a href="#">Estadísticas a nivel nacional</a>
-        <a href="#">Formas de ayudar</a>
-      </nav>
+    
     </div>
 
-    <header class="content header">
-      <h2 class="title">¿Qué es el SENAME?</h2>
-      <p class="parrafo1">
-        El Servicio Nacional de Menores (Sename) es un organismo del Estado que
-        depende del Ministerio de Justicia. Su tarea es contribuir a proteger y
-        promover los derechos de los niños, niñas y adolescentes y a reinsertar
-        en la sociedad a los adolescentes que han infringido la ley. El 1 de
-        octubre de 2021, el SENAME se separó en el nuevo SENAME, que se encarga
-        de la reinserción, y Mejor niñez cuya misión, es restituir derechos y
-        reparar el daño de los niños, niñas y adolescentes gravemente amenazados
-        y vulnerados en sus derechos, quitándole esta responsabilidad al Sename.
-        Junto a lo anterior, también regula y controla la adopción en Chile.
-      </p>
-      <div class="btn-home">
-        <a href="#" class="btn">
-          <form action="https://www.sename.cl/">
-            <input type="submit" value="SENAME.cl" /></form
-        ></a>
-        <a href="#" class="btn">
-          <form action="https://www.mejorninez.cl/">
-            <input type="submit" value="Mejor Niñez" /></form
-        ></a>
-      </div>
-    </header>
+  
 
     <section class="content about">
-      <h2 class="title">Edades de Ingreso</h2>
-      <p>Aqui debería ir la linea de tiempo con interacciones.</p>
+      <h2 class="title">¿Qué edad tienen estos niños?</h2>
 
-      <a href="#" class="btn"
-        >Podríamos poner el link de la fuente de este dato</a
+
+      
+      
+    </section>
+
+    <section class="intro">
+      
+    </section>
+
+    
+    <section class="timeline">
+      <ul>
+        <li>
+          <div>
+            <time><h2> 0 - 3 años</h2></time> 
+            <p>9.979 niñes </p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time><h2> 4 - 8 años</h2></time>
+            <p>23.025 niñes
+            </p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time><h2> 9 - 13 años</h2></time> 
+            <p> 26.357 niñes </p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time><h2> 14 - 17 años</h2></time> 
+            <p> 20.515 niñes</p>
+            <a href="https://www.theclinic.cl/2019/08/01/soy-profugo-del-sename-el-testimonio-de-un-adolescente-clandestino/" class="btn" title=”CONTENIDO_DELICADO”
+      
+        >Testimonio Nicolás </a
       >
+          </div>
+        </li>   
+        
+          
+      </ul>
     </section>
 
-    <section class="content price">
-      <article class="contain">
-        <h2 class="title">Razones de Ingreso</h2>
-        <p>Gráfico interactivo con "hover"</p>
-
-        <a href="#" class="btn">link de la info</a>
-      </article>
-    </section>
-
-    <section class="content contact">
-      <h2 class="title">Estadísticas a nivel nacional</h2>
-      <p>gráficos y estadísticas más relevantes</p>
-      <figure class="map">
-        <img src="imagenes/map.png" height="220px" width="100%" alt="mapa" />
-      </figure>
-    </section>
-
-    <section class="content sau">
-      <h2 class="title">Formas de ayudar</h2>
-      <p>
-        Si bien muchas veces parece complicado poder ayudar a niños que se
-        encuentran en estas situaciones, existen distintas maneras de ayudarlos
-        en su crecimiento y formación, tales como:
-      </p>
-
-      <div class="box-container">
-        <div class="box">
-          <i class="fas fa-graduation-cap"></i>
-          <h3>Estudiar una carrera relacionada al área</h3>
-        </div>
-
-        <div class="box">
-          <i class="fas fa-hand-holding-heart"></i>
-          <h3>Participar en voluntariados</h3>
-          <p></p>
-        </div>
-
-        <div class="box">
-          <i class="fas fa-gift"></i>
-          <h3>Realizar donaciones a los hogares y/o residencias</h3>
-          <p></p>
-        </div>
+    <section id="logos">
+      <h1 class="titulo"> En el año 2021...</h1>
+      <div class="horizontal">
+          <button id="b1" onclick="edades_1();" class="periodos_s2"> 0 - 3 años </button>
+          <button id="b2" onclick="edades_2();" class="periodos_s2"> 4 - 8 años </button>
+          <button id="b3" onclick="edades_3();" class="periodos_s2"> 9 - 13 años </button>
+          <button id="b4" onclick="edades_4();" class="periodos_s2"> 14 - 17 años </button>
+    
       </div>
-    </section>
-  </body>
-</html>
+      
+      <div id="niños_logos">
+          <img id="niños_1" class="persona_m11" src="./imagenes/niños1.png" alt="imagen_niño"/>
+          <img id="niños_2" class="persona_m1" src="./imagenes/niños1.png" alt="imagen_niño"/>
+          <img id="niños_3" class="persona_m2" src="./imagenes/niños1.png" alt="imagen_niño"/>
+          <img id="niños_4" class="persona_m1" src="./imagenes/niños1.png" alt="imagen_niño"/>
+          <img id="niños_5" class="persona_m2" src="./imagenes/niños1.png" alt="imagen_niño"/>
+          <img id="niños_6" class="persona_m1" src="./imagenes/niños1.png" alt="imagen_niño"/>
+          <img id="niños_7" class="persona_m2" src="./imagenes/niños1.png" alt="imagen_niño"/>
+          <img id="niños_8" class="persona_m1" src="./imagenes/niños1.png" alt="imagen_niño"/>
+          <img id="niños_9" class="persona_m2" src="./imagenes/niños1.png" alt="imagen_niño"/>
+          <img id="niños_10" class="persona_m1" src="./imagenes/niños1.png" alt="imagen_niño"/>
+      </div>  
+ 
+  </section>
+
+  <script type='text/javascript'>
+      function edades_1(){
+          document.getElementById("niños_logos").style.display = "block";
+          document.getElementById("niños_1").src = "./imagenes/niños1.png";
+          document.getElementById("niños_2").src = "./imagenes/niños2.png";
+          document.getElementById("niños_3").src = "./imagenes/niños2.png";
+          document.getElementById("niños_4").src = "./imagenes/niños2.png";
+          document.getElementById("niños_5").src = "./imagenes/niños2.png";
+          document.getElementById("niños_6").src = "./imagenes/niños2.png";
+          document.getElementById("niños_7").src = "./imagenes/niños2.png";
+          document.getElementById("niños_8").src = "./imagenes/niños2.png";
+          document.getElementById("niños_9").src = "./imagenes/niños2.png";
+          document.getElementById("niños_10").src = "./imagenes/niños2.png";
+      }
+
+      function edades_2(){
+          document.getElementById("niños_logos").style.display = "block";
+          document.getElementById("niños_1").src = "./imagenes/niños1.png";
+          document.getElementById("niños_2").src = "./imagenes/niños1.png";
+          document.getElementById("niños_3").src = "./imagenes/niños1.png";
+          document.getElementById("niños_4").src = "./imagenes/niños2.png";
+          document.getElementById("niños_5").src = "./imagenes/niños2.png";
+          document.getElementById("niños_6").src = "./imagenes/niños2.png";
+          document.getElementById("niños_7").src = "./imagenes/niños2.png";
+          document.getElementById("niños_8").src = "./imagenes/niños2.png";
+          document.getElementById("niños_9").src = "./imagenes/niños2.png";
+          document.getElementById("niños_10").src = "./imagenes/niños2.png";
+      }
+
+      function edades_3(){
+          document.getElementById("niños_logos").style.display = "block";
+          document.getElementById("niños_1").src = "./imagenes/niños1.png";
+          document.getElementById("niños_2").src = "./imagenes/niños1.png";
+          document.getElementById("niños_3").src = "./imagenes/niños1.png";
+          document.getElementById("niños_4").src = "./imagenes/niños2.png";
+          document.getElementById("niños_5").src = "./imagenes/niños2.png";
+          document.getElementById("niños_6").src = "./imagenes/niños2.png";
+          document.getElementById("niños_7").src = "./imagenes/niños2.png";
+          document.getElementById("niños_8").src = "./imagenes/niños2.png";
+          document.getElementById("niños_9").src = "./imagenes/niños2.png";
+          document.getElementById("niños_10").src = "./imagenes/niños2.png";
+      }
+
+      function edades_4(){
+          document.getElementById("niños_logos").style.display = "block";
+          document.getElementById("niños_1").src = "./imagenes/niños1.png";
+          document.getElementById("niños_2").src = "./imagenes/niños1.png";
+          document.getElementById("niños_3").src = "./imagenes/niños2.png";
+          document.getElementById("niños_4").src = "./imagenes/niños2.png";
+          document.getElementById("niños_5").src = "./imagenes/niños2.png";
+          document.getElementById("niños_6").src = "./imagenes/niños2.png";
+          document.getElementById("niños_7").src = "./imagenes/niños2.png";
+          document.getElementById("niños_8").src = "./imagenes/niños2.png";
+          document.getElementById("niños_9").src = "./imagenes/niños2.png";
+          document.getElementById("niños_10").src = "./imagenes/niños2.png";
+      }
+      
+      
+
+  </script>
+
+<div class="container">
+  <h1> 
+    <a href="https://www.sename.cl/web/wp-content/uploads/2022/09/Anuario-Estadistico-2021.pdf" class="btn" title=”Anuario”
+
+    >Para más información </a
+  >
+
+  </h1>
+</div>
+    
+    
