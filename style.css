@@ -212,7 +212,7 @@ body {
 
 .intro {
   background: #28c5b8;
-  padding: 100px 0;
+  padding: 130px 0;
 }
 
 .container {
@@ -304,22 +304,22 @@ h2 {
 
 
 #niños_1{
-  height: 120px;
-  width: 45px;
+  height: 150px;
+  width: 70px;
   float: left;
   padding-top: 40px;
 } 
 
 .persona_m1{
-  height: 120px;
-  width: 45px;
+  height: 150px;
+  width: 70px;
   float: left;
   padding-top: 40px;
 } 
 
 .persona_m2{
-  height: 120px;
-  width: 45px;
+  height: 150px;
+  width: 70px;
   float: left;
   padding-top: 40px;
 } 
