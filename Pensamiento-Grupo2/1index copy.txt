@@ -1,0 +1,38 @@
+    <section class="content contact">
+        <h2 class="title">Estadísticas a nivel nacional</h2>
+        <p>gráficos y estadísticas más relevantes</p>
+        <figure class="map">
+            <img src="imagenes/map.png" height="220px" width="100%" alt="mapa">
+        </figure>
+    </section>
+
+    <section class="content sau">
+
+        <h2 class="title">Formas de ayudar</h2>
+        <p>
+            Si bien muchas veces parece complicado poder ayudar a niños que se encuentran en estas situaciones, existen distintas maneras de ayudarlos en su crecimiento y formación, tales como:
+        </p>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Estudiar una carrera relacionada al área</h3>
+            </div> 
+
+            <div class="box">
+                <i class="fas fa-hand-holding-heart"></i>
+                <h3>Participar en voluntariados</h3>
+                <p></p>
+            </div> 
+
+            <div class="box">
+                <i class="fas fa-gift"></i>
+                <h3>Realizar donaciones a los hogares y/o residencias</h3>
+                <p></p>
+            </div> 
+        </div>     
+
+    </section>
+</body>
+</html>

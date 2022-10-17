@@ -1,0 +1,293 @@
+ {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  text-align: center;
+  font-family: 'Poppins', monospace;
+  color: white;
+  font-size: .7em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  background-color: rgb(3, 182, 158);
+}
+
+html {
+  font-weight: 300;
+}
+
+main {
+  padding: 60px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 1.4em;
+  margin-bottom: 15px;
+  font-weight: 200;
+}
+
+hr {
+  border-color: white;
+  margin: 10px 0;
+}
+
+figure, canvas {
+  background-color: rgba(255,255,255,.03);
+  padding: 10px 10px 30px;
+}
+
+canvas {
+  width: 100%;
+  padding: auto;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+  background: #18897f;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  margin-right: 40px;
+}
+
+.logo {
+  margin-left: 40px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.navbar a {
+  display: block;
+  padding: 20px 20px;
+  color: white;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 20px;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a:hover {
+  background: rgb(72, 235, 145);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  height: 80vh;
+  background: rgba(0,0,0,0.5);
+  background-blend-mode:darken;
+  background-image:url(https://cdn.glitch.global/c35b4f4c-6f77-4311-8b28-a549b8425cf4/rsz_phil-hearing-cylpetxs7is-unsplash.jpg?v=1665365300440);
+  background-size:cover;
+  background-position:center;
+}
+
+.title {
+  margin-bottom: 0px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: none;
+  color: #fff;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 15px;
+  padding: 10px 40px;
+  border: 2px solid rgba(14, 41, 111,0.5);
+  color: rgb(255, 255, 255);
+  background: rgba(15, 67, 95,0.5);
+}
+
+.btn:hover {
+  background: none;
+}
+
+.btn-home {
+  display: flex;
+}
+
+.btn-home a {
+  margin: 0 100px;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.sau {
+  background-color: rgb(3, 182, 158);
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.box-container .box {
+  height: 11rem;
+  width: 17rem;
+  background-color: rgba(0, 0, 0, 0.516);
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 0rem 1.5rem rgba(255, 255, 255, 0.5);
+  margin: 2rem;
+}
+
+.box-container .box i {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  color: rgb(0, 0, 0);
+  background-color: rgb(22, 130, 117);
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.box-container .box h3 {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.box-container .box p {
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+.about {
+  background: #171717;
+}
+
+.price {
+  background: url(img/costos.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.contact {
+  padding-top: 20px;
+  background: #171717;
+  padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .title {
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+
+  .sau {
+    height: 100vh;
+  }
+
+  .navbar {
+    display: none;
+  }
+  .skills-container {
+    margin-top: 2em;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+  .circular-progress {
+    height: 12rem;
+    border-radius: 50%;
+    background: red;
+    margin: auto;
+
+
+
+    }
+  }
+
+/* grid */
+
+[class*='cols'] {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.cols-1 > * {
+  width: 100%;
+  margin: 10px;
+}
+
+.cols-2 > * {
+  width: 50%;
+  margin: 10px
+}
+
+
+@media  (max-width: 800px) {
+
+  main {
+      padding: 0;
+  }
+
+  h1 {
+      font-size: 2.1em;
+      font-weight: 100;
+  }
+
+  [class*='cols'] {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  .cols-2 > * {
+      width: 100%;
+  }
+}
+
+Footer
+© 2022 GitHub, Inc.

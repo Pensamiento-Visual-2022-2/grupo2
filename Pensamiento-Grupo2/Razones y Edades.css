@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	color: rgb(255, 255, 255);
+}
+html{
+	scroll-behavior: smooth;
+}
+
+section{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#inicio{  
+	background: rgba(0,0,0,0.5);
+	background-blend-mode:darken;
+	background-image:url(https://images.unsplash.com/photo-1538688273852-e29027c0c176?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+	background-size:cover;
+	background-position:center;
+}
+#a1930{	
+	background: rgba(0,0,0,0.5);
+	background-blend-mode:darken;
+	background-image:url(https://assets.adnradio.cl/2021/11/GettyImages-1323472836-e1636999979522-925x470.jpg);
+	background-size:cover;
+	background-position:center;
+}
+#a1954{
+	background: rgba(0,0,0,0.5);
+	background-blend-mode:darken;
+	background-image:url(https://www.centroeleia.edu.mx/blog/wp-content/uploads/2020/07/slider_home_conflictos_pareja.jpg);
+	background-size:cover;
+	background-position:center;
+}
+#a1962{
+	background: rgba(0,0,0,0.5);
+	background-blend-mode:darken;
+	background-image:url(https://cuadernosdeseguridad.com/wp-content/uploads/2021/09/pericia-judicial-seguridad-privada.jpg);
+	background-size:cover;
+	background-position:center;
+}
+#a1964{
+	background: rgba(0,0,0,0.5);
+	background-blend-mode:darken;
+	background-color: #064a45;
+	background-size:cover;
+	background-position:center;
+}
+
+#a1968{
+	background: rgba(0,0,0,0.5);
+	background-blend-mode:darken;
+	background-color: #022c27;
+	background-size:cover;
+	background-position:center;
+}
+
+#home{
+	background-color: #000000;
+}
+
+#inicio h1{
+	font-size: 68px;
+	letter-spacing: 5px;
+}
+section h2{
+	font-size: 50px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+section h3{
+	font-size: 40px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+section img{
+	margin-top: 30px;
+	max-width: 300px;
+}
+.contenedor-tiempo{
+	position: fixed;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	justify-content: center;
+}
+.contenedor-tiempo .linea{
+	width: 900px;
+	position: absolute;
+	top: 30px;
+	height: 2px;
+	background-color: black;
+	z-index: -2;
+
+}
+.fecha{
+	display: inline-block;
+	font-size: 20px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #0f5751;
+	text-decoration: none;
+	color: white;
+	margin: 0 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	scale: 1;
+	transition: background-color, transform .5s linear;
+
+}
+.seleccionado{
+	transform: scale(1.2) ;
+	background-color: #EA5455;
+	color: #000;
+	font-weight: bold;
+}
+
+html {
+	font-weight: 300;
+  }
+
+  
+  
+  h1 {
+	  font-size: 3em;
+	  font-weight: 100;
+  }
+  
+
+  
+  
+
+  
+  figure, canvas {
+	  padding: 0px 20px 0px;
+  }
+  
+  canvas {
+	padding: 50px 0px 0px;
+	width: 100%;
+  }
+/* grid */
+
+[class*='cols'] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.cols-1 > * {
+    width: 100%;
+    margin: 10px;
+}
+
+.cols-2 > * {
+    width: 50%;
+    margin: 10px
+}
+
+
+@media  (max-width: 800px) {
+
+    main {
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 2.1em;
+        font-weight: 100;
+    }
+
+    [class*='cols'] {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .cols-2 > * {
+        width: 100%;
+    }
+}
